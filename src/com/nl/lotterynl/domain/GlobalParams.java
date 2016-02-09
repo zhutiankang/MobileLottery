@@ -1,0 +1,29 @@
+package com.nl.lotterynl.domain;
+
+public class GlobalParams {
+	/**
+	 * 代理的ip
+	 */
+	public static String PROXY = "";
+	/**
+	 * 代理的端口
+	 */
+	public static int PORT = 0;
+	/**
+	 * 屏幕的宽度
+	 */
+	public static int WIN_WIDTH = 0;
+	/**
+	 * 记录用户的登录状态
+	 */
+	public static boolean isLogin = false;
+	/**
+	 * 用户余额
+	 */
+	public static float MONEY = 0;
+	
+	/**
+	 * 服务器用户名
+	 */
+	public static String USERNAME = "";
+}

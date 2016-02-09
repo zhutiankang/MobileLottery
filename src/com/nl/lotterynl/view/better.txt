@@ -1,0 +1,11 @@
+优化代码
+关键是优化代码
+当界面多的时候，就要考虑优化代码，降低耦合
+1.观察者的应用，降低标题，底部，中间容器的耦合
+2.hall的优化，通过baseUI，抽取共同的代码，尽量抽取
+  2.1 showInMiddle 中间容器ViewGroup的抽取
+  2.2 OnClickListener的实现，点击事件的抽取
+  2.3 init();界面初始化的抽取
+	  setListener();设置监听的抽取
+  2.4 getChild();需在中间容器加载的控件的抽取
+  2.5 findViewById();查找控件的抽取
